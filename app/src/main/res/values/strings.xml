@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">One Song Player</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="quieter">–</string>
+    <string name="louder">+</string>
+    <string name="volume">Volume</string>
+</resources>
