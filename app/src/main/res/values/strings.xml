@@ -5,4 +5,5 @@
     <string name="quieter">–</string>
     <string name="louder">+</string>
     <string name="volume">Volume</string>
+    <string name="middle">Play from the middle</string>
 </resources>

@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         Button pause = findViewById(R.id.pause_button);
         Button louder = findViewById(R.id.louder_button);
         Button quieter = findViewById(R.id.quieter_button);
+        Button playFromMiddle = findViewById(R.id.middle_button);
 
         play.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,6 +61,14 @@ public class MainActivity extends AppCompatActivity {
                     audioManager.setStreamVolume(AudioManager.STREAM_MUSIC,
                             currentVolume - 1, AudioManager.FLAG_PLAY_SOUND);
                 }
+            }
+        });
+
+        playFromMiddle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mediaPlayer.seekTo(mediaPlayer.getDuration()/2);
+                mediaPlayer.start();
             }
         });
     }

@@ -64,4 +64,12 @@
 
     </LinearLayout>
 
+    <Button
+        android:id="@+id/middle_button"
+        android:layout_marginLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/middle"/>
+
 </LinearLayout>
